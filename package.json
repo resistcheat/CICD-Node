@@ -1,0 +1,28 @@
+{
+  "name": "cicd",
+  "version": "1.0.0",
+  "description": "cicd test app",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "start":"node ./index.js",
+    "test": "mocha ./test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/resistcheat/CICD-Node.git"
+  },
+  "author": "Chetan Naik",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/resistcheat/CICD-Node/issues"
+  },
+  "homepage": "https://github.com/resistcheat/CICD-Node#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  },
+  "devDependencies": {
+    "mocha": "^5.2.0",
+    "supertest": "^3.3.0"
+  }
+}
